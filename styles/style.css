@@ -47,13 +47,12 @@ body{
 
 .join h1{
     color: var(--clr-Cyan);
-    margin-bottom: 1.5rem;
-    font-size: 1.75rem;
+    margin-bottom: 1.3rem;
+    font-size: 1.25rem;
 }
 
 .join h2{
     color: var(--clr-Yellow);
-    margin-bottom: 1.5rem;
     font-weight: 700;
     margin: 1.5rem 0;
     font-size: 1rem;
@@ -129,10 +128,4 @@ body{
     font-size: 0.90rem;
     font-weight: 400;
     line-height: 1.25;
-}
-
-@media screen and (min-width: 768px) {
-    body{
-        min-height: 100vh;
-    }
 }
