@@ -1,1 +1,138 @@
-html
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Inter:wght@400;700&family=Karla:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--clr-Cyan: hsl(179, 62%, 43%);
+--clr-Yellow: hsl(71, 73%, 54%);
+--clr-Gray: hsl(204, 43%, 93%);
+--clr-Blue: hsl(218, 22%, 67%);
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--clr-Gray);
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+
+.main{
+    width: 85%;
+}
+
+.join,
+.subscribe,
+.why {
+    padding: 1.75rem 1.5rem;
+}
+
+.join{
+    background-color: white;
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.join h1{
+    color: var(--clr-Cyan);
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+}
+
+.join h2{
+    color: var(--clr-Yellow);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+}
+
+.join p{
+    color: var(--clr-Blue);
+    font-size: 0.9rem;
+    font-weight: 450;
+    line-height: 1.5;
+    opacity: 1;
+}
+
+.subscribe{
+    background-color: hsl(179, 62%, 40%);
+    color: white;
+}
+
+.subscribe h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe p{
+    margin-bottom: 0.5rem;
+}
+.subscribe p:nth-of-type(1){
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.subscribe p:nth-of-type(1) span{
+    font-size: 1rem;
+    margin-left: 0.7rem;
+    color: hsl(204, 43%, 83%);
+    font-weight: 400;
+    opacity: 75%;
+}
+.subscribe p:nth-of-type(2){
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.subscribe button{
+    border: none;
+    background-color: var(--clr-Yellow);
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0px 5px 15px rgb(33, 130, 128, 0.85);
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.why{
+    background-color: hsl(179, 62%, 45%);
+    border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.why h2{
+    margin-bottom: 1rem;
+    font-size: 700;
+    font-size: 1.5;
+    color: white;
+}
+
+.why ul{
+    list-style: none;
+    color: hsl(204, 43%, 93%);
+    font-size: 0.90rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        min-height: 100vh;
+    }
+}
