@@ -120,9 +120,8 @@ body{
 }
 
 .why h2{
+    font-size: 1rem;
     margin-bottom: 1rem;
-    font-size: 700;
-    font-size: 1.5;
     color: white;
 }
 
@@ -138,8 +137,8 @@ body{
     body{
         min-height: 100vh;
     }
-    .main{
-        width: 45%;
+    main{
+   .main     width: 45%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 50% 50%;
