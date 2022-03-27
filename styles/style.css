@@ -108,7 +108,7 @@ body {
 }
 
 .subscribe button:hover {
-  background-color: rgb(192, 223, 52, 0.85);
+  background-color: coral;
 }
 
 .why {
